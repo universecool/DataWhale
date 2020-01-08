@@ -1,5 +1,7 @@
 # 机器学习综述
 
+![haha](https://github.com/universecool/DataWhale/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95%E6%A2%B3%E7%90%86/task0/1.jpg)
+
 ## 机器学习的发展
 机器学习从上世纪五十年代开始至今，主要经历了推理期、连接主义、决策理论、统计学习、深度学习等阶段。
 
