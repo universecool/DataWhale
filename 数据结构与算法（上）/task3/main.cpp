@@ -33,7 +33,6 @@ private:
         Node *next;
     };
     Node *head;
-    // Node *p;
     int length;
 
 public:
