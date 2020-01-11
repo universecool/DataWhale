@@ -138,7 +138,7 @@ public:
         minS = -1;
         for (int i=0; i < m_Nk; i++)
         {
-            if (h[i].empty() == false && minH > h[i].top())
+            if (!h[i].empty() && minH > h[i].top())
             {
                 minH = h[i].top();
                 minS = i;
@@ -153,7 +153,7 @@ public:
         int bestTop = __INT_MAX__; //最优缓冲轨道的头辆车厢
         for (int i = 0; i < m_Nk; i++)
         {
-            if (h[i].empty() == false)
+            if (!h[i].empty())
             {
                 int x = h[i].top();
                 if (c < x && x < bestTop)
