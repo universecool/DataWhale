@@ -209,7 +209,7 @@ int main(){
         cout << "需要更多的缓冲轨道，请输入需要添加的数量：" << endl;
         int ad;
         cin >> ad;
-        k = k + ad;
+        k += ad;
         result = coa.RailRoad(p, 9, k);
     }
     // system("pause");
