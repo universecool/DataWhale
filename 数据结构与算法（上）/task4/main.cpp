@@ -69,7 +69,7 @@ T CSeqQueue<T>::front()
 {
     if (Length == 0)
     {
-        throw "队列为空不能得到队首元素！";
+        throw "队列为空，不能得到队首元素！";
     }
     return queue[begin];
 }
